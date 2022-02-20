@@ -1,0 +1,476 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    background: #E5E5E5;
+}
+.nav-bar, .logo, .letter, ul, li, a, #img, .menu{
+	box-sizing: border-box;
+}
+
+/*****************<!-- NAVIGATION-BAR -->***************/
+
+.nav-bar{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 62px 80px;
+	align-items: center;
+}
+.logo{
+	display: flex;
+}
+.letter{
+	border: 5px solid #458FF6;
+	text-align: center;
+	position: relative;
+	bottom: 5px;
+	border-radius: 100%;
+	background: #458FF6;
+color: white;
+width: 40px;
+font-size: 26px;
+height: 40px;
+padding: 2px 2px 0 0;
+
+}
+#img{
+position: relative;
+left: 12px;
+width: 100px;
+height: 30px;
+
+}
+.menu li{
+	list-style: none;
+display: inline-block;
+margin: 0 20px;
+}
+.menu li a{
+	text-decoration: none;
+color: grey;
+	
+}
+.menu ul li a:hover {
+	color: #1F1534;
+}
+
+/************************Main Content************************/
+
+.main{
+	position: absolute;
+	left: 190px;
+	top: 200px;
+}
+.main-img img{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	left: 744px;
+	bottom: 80px;
+
+}
+.main h1{
+	font-size: 48px;
+}
+.main p{
+	color: grey;
+	margin-top: 25px;
+}
+.main button{
+	cursor: pointer;
+	position: relative;
+	margin-top: 45px;
+	padding: 12px 34px;
+font-size: 13px;
+border: 1px solid #458FF6;
+border-radius: 20px;
+background:  #458FF6;
+color: white;
+font-size: 15px;
+}
+
+/***********************OUR SERVICES**********************/
+
+.heading{
+	text-align: center;
+	position: relative;
+	top: 550px
+}
+.line{
+	width: 56px;
+	color: black;
+	position: absolute;
+	left: 630px;
+	top: 50px;
+}
+.heading p{
+	color: grey;
+	position: relative;
+	top: 55px;
+
+}
+.services{
+	position: relative;
+	top: 700px;
+}
+.service-1{
+	display: flex;
+justify-content: space-evenly;
+   
+}
+/*.service-1:hover{
+   box-shadow: 1px 1px 10px grey;
+}*/
+
+
+.service-2{
+	display: flex;
+justify-content: space-evenly;
+
+position: relative;
+top: 40px;
+margin: 0 25px;
+}
+.pic{
+	width: 60px;
+	height: 70px;
+	padding: 40px;
+}
+.ser-1{
+	background: white;
+	width: 300px;
+	border-radius: 20px;
+	height: 300px;
+}
+.ser-2{
+	background: white;
+	height: 300px;
+	width: 300px;
+	border-radius: 20px;
+
+}
+.ser-3{
+	background: white;
+	height: 300px;
+	width: 300px;
+	border-radius: 20px;
+
+}
+.ser-4{
+	background: white;
+	width: 300px;
+	height: 300px;
+	border-radius: 20px;
+
+}
+.ser-5{
+	background: white;
+	width: 300px;
+	height: 300px;
+	border-radius: 20px;
+
+}
+.ser-6{
+	background: white;
+	width: 300px;
+	height: 300px;
+	border-radius: 20px;
+
+}
+.services h3, .services p{
+	padding: 0px 40px;
+
+}
+.services p{
+padding-top: 10px;
+line-height: 25px;
+color: grey;
+	}
+
+.btn{
+	font-size: 18px;
+	cursor: pointer;
+	border-radius: 55px;
+	color: #458FF6;
+	border: 1px solid #458FF6 ;
+	width: 200px;
+	height: 56px;
+position: relative;
+top: 850px;
+left: 45%;
+transition: 1s;
+ }
+
+ .btn:hover {
+ 	background: #458FF6;
+ 	color: white;
+ }
+
+
+ /***************Lead and Download*****************/
+
+ .lead{
+ 	display: flex;
+ 	justify-content: space-evenly;
+ 	position: relative;
+ 	top: 1000px;
+ }
+ .leadpic{
+ 	width:400px ;
+ 	height: 377px;
+
+ }
+ .leading{
+ 	position: relative;
+ 	top: 50px;
+ }
+ .leading h1{
+ 	line-height: 40px ;
+ }
+ .line2{
+ 	width: 56px;
+	color: black;
+	position: relative;
+	top: 5px;
+ }
+ .leading p{
+ 	position: relative;
+ 	top: 30px;
+ 	line-height: 25px;
+ 	color: grey;
+ }
+ .btn-1{
+ 	
+ font-size: 18px;
+	cursor: pointer;
+	border-radius: 55px;
+	color: #458FF6;
+	border: 1px solid #458FF6 ;
+	width: 200px;
+	height: 56px;
+transition: 1s;
+position: relative;
+top: 70px;
+ }
+
+ .btn-1:hover {
+ 	background: #458FF6;
+ 	color: white;
+ }
+
+/*<!-- **************DOWNLOAD****************** -->*/
+
+.down{
+ 	display: flex;
+ 	justify-content: space-evenly;
+ 	position: relative;
+ 	top: 1200px;
+ }
+ .downpic{
+ 	width:500px ;
+ 	height: 330px;
+ }
+ .down2{
+ 	width: 56px;
+	color: black;
+	position: relative;
+	top: 5px;
+ }
+ .downing{
+ 	line-height: 40px ;
+
+ }
+ .downing p{
+ 		position: relative;
+ 	top: 30px;
+ 	line-height: 25px;
+ 	color: grey;
+ }
+
+ /*****************CUSTOMER'S FEEDBACK********************/
+
+ .blue1{
+ 	height: 325px;
+width: 900px;
+position: relative;
+top: 1400px;
+left: 15%;
+
+ }
+
+ .mtb{
+ 	height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  position: relative;
+  top: 1350px;
+  right: 630px;
+  
+ }
+ .cust{
+ 	width: 56px;
+	color: white;
+	position: absolute;
+	top: 3100px;
+	left: 45%;
+
+ }
+.customer h1{
+	position: absolute;
+	top: 3050px;
+	left: 32%;
+color: white;
+font-size: 30px;
+
+}
+.name{
+	position: absolute;
+	top: 3190px;
+	left: 30%;
+	line-height: 32px;
+	color: white;
+}
+.name h3{
+	font-size: 20px;
+}
+.name p{
+	font-size: 15px;
+}
+.para{
+	position: absolute;
+	top: 3170px;
+left: 50%;
+color: white;
+line-height: 25px;
+}
+.btns{
+	position: absolute;
+	top: 3350px;
+left: 45%;
+margin: 20px;
+}
+
+/****************LATEST ARTICLE******************/
+.lin{
+	width: 56px;
+	color: black;
+	position: relative;
+	left: 170px;
+	top: 20px;
+}
+.article{
+	position: absolute;
+	top: 3550px;
+	left: 35%;
+	font-size: 20px;
+}
+.imgs{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 1750px;
+}
+.imgs img{
+	border-radius: 10px;
+	width: 300px;
+	margin:0 10px 0 10px ;
+}
+.imgs h3{
+	position: relative;
+	left: 33px;
+	top: 21px;
+	line-height: 31px;
+}
+.imgs p{
+	position: relative;
+	top: 25px;
+	left: 33px;
+color: #7D7987;
+font-size: 16px;
+line-height: 30px;
+}
+.imgs button{
+	position: relative;
+	top: 45px;
+	left: 33px;
+	border: 1px solid white;
+	color: #4089ED;
+	cursor: pointer;
+}
+.view{
+	position: absolute;
+	top: 500px;
+	right: 600px;
+}
+.btn-view{
+ font-size: 18px;
+	cursor: pointer;
+	border-radius: 55px;
+	color: #458FF6;
+	width: 200px;
+	height: 56px;
+transition: 1s;
+border: 1px solid  #458FF6;
+
+ }
+
+ .btn-view:hover {
+ 	background: #458FF6;
+ 	color: white;
+ }
+
+/************** FOOTER *****************/
+.footer-1{
+	border: 1px solid white;
+	width: 99%;
+	height: 400px;
+	position: relative;
+	top: 2124px;
+   background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+color: white;
+	display: flex;
+}
+.foot{
+	position: absolute;
+	top: 100px;
+	left: 150px;
+}
+.f-1{
+	position: absolute;
+	left: 650px;
+	top: 110px;
+}
+.f-2{
+	position: absolute;
+	left: 850px;
+	top: 110px;
+}
+.f-3{
+	position: absolute;
+	left: 1050px;
+	top: 110px;	
+}
+.f-1 p{
+	line-height: 35px;
+	font-size: 14px;
+}
+
+.f-2 p{
+	line-height: 35px;
+	font-size: 14px;
+
+}
+.f-3 p{
+	font-size: 14px;
+	line-height: 35px;
+}
+.foot p{
+	line-height: 30px;
+}
+.copy{
+margin-top: 30px;
+}
